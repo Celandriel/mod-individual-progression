@@ -102,17 +102,14 @@ INSERT INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_
 `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param6`, 
 `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_param4`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES 
 --
-(9045, 0, 0, 0, 4, 0, 100, 2, 0, 0, 0, 0, 0, 0, 39, 10, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,                      'Scarshield Acolyte - On Aggro - Call For Help (Normal Dungeon)'),
-(9045, 0, 1, 0, 0, 0, 100, 0, 7000, 15000, 21000, 33000, 0, 0, 11, 14032, 32, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0,   'Scarshield Acolyte - In Combat - Cast Shadow Word: Pain'),
-(9045, 0, 2, 0, 2, 0, 100, 1, 0, 75, 0, 0, 0, 0, 11, 12039, 64, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,                 'Scarshield Acolyte - Between 0-75% Health - Cast Heal (No Repeat)'),
-(9045, 0, 3, 0, 74, 0, 100, 0, 0, 0, 17000, 24000, 35, 40, 11, 8362, 96, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0,        'Scarshield Acolyte - On Friendly Between 0-35% Health - Cast Renew'),
-(9045, 0, 4, 0, 2, 0, 100, 1, 0, 15, 0, 0, 0, 0, 25, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,                      'Scarshield Acolyte - Between 0-15% Health - Flee For Assist (No Repeat)'),
-(9097, 0, 0, 0, 4, 0, 100, 2, 0, 0, 0, 0, 0, 0, 39, 10, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,                      'Scarshield Legionnaire - On Aggro - Call For Help (Normal Dungeon)'),
-(9097, 0, 1, 0, 0, 0, 100, 0, 7800, 11500, 8000, 22100, 0, 0, 11, 15496, 0, 0, 0, 0, 0, 21, 5, 0, 0, 0, 0, 0, 0, 0,    'Scarshield Legionnaire - Within 0-5 Range - Cast Cleave'),
-(9097, 0, 2, 0, 105, 0, 100, 0, 0, 0, 14000, 20000, 0, 5, 11, 11972, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0,         'Scarshield Legionnaire - Target Casting - Cast Shield Bash'),
+(9045, 0, 0, 0, 0, 0, 100, 0, 7000, 15000, 21000, 33000, 0, 0, 11, 14032, 32, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0,   'Scarshield Acolyte - In Combat - Cast Shadow Word: Pain'),
+(9045, 0, 1, 0, 2, 0, 100, 1, 0, 75, 0, 0, 0, 0, 11, 12039, 64, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,                 'Scarshield Acolyte - Between 0-75% Health - Cast Heal (No Repeat)'),
+(9045, 0, 2, 0, 74, 0, 100, 0, 0, 0, 17000, 24000, 35, 40, 11, 8362, 96, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0,        'Scarshield Acolyte - On Friendly Between 0-35% Health - Cast Renew'),
+(9045, 0, 3, 0, 2, 0, 100, 1, 0, 15, 0, 0, 0, 0, 25, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,                      'Scarshield Acolyte - Between 0-15% Health - Flee For Assist (No Repeat)'),
+(9097, 0, 0, 0, 0, 0, 100, 0, 7800, 11500, 8000, 22100, 0, 0, 11, 15496, 0, 0, 0, 0, 0, 21, 5, 0, 0, 0, 0, 0, 0, 0,    'Scarshield Legionnaire - Within 0-5 Range - Cast Cleave'),
+(9097, 0, 1, 0, 105, 0, 100, 0, 0, 0, 14000, 20000, 0, 5, 11, 11972, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0,         'Scarshield Legionnaire - Target Casting - Cast Shield Bash'),
 (9098, 0, 0, 0, 63, 0, 100, 0, 0, 0, 0, 0, 0, 0, 58, 1, 13748, 1100, 3000, 30, 30, 1, 0, 0, 0, 0, 0, 0, 0, 0,          'Scarshield Spellbinder - On Respawn - Set Caster Template'),
-(9098, 0, 1, 0, 4, 0, 100, 2, 0, 0, 0, 0, 0, 0, 39, 10, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,                      'Scarshield Spellbinder - On Aggro - Call For Help (Normal Dungeon)'),
-(9098, 0, 2, 0, 16, 0, 100, 0, 15123, 30, 3000, 6000, 0, 0, 11, 15123, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0,       'Scarshield Spellbinder - On Friendly Missing Buff - Cast Resist Fire'),
+(9098, 0, 1, 0, 16, 0, 100, 0, 15123, 30, 3000, 6000, 0, 0, 11, 15123, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0,       'Scarshield Spellbinder - On Friendly Missing Buff - Cast Resist Fire'),
 --
 (9197, 0, 0, 0, 0, 0, 100, 0, 4000, 10000, 5000, 15000, 0, 0, 11, 15305, 64, 0, 0, 0, 0, 5, 30, 0, 0, 0, 0, 0, 0, 0,   'Spirestone Battle Mage - In Combat - Cast Chain Lightning'),
 (9197, 0, 1, 0, 14, 0, 100, 0, 6000, 40, 20000, 20000, 0, 0, 11, 16170, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0,      'Spirestone Battle Mage - Friendly Missing 6000 Health - Cast Bloodlust'),
@@ -331,8 +328,9 @@ INSERT INTO `creature` (`guid`, `id1`, `id2`, `id3`, `map`, `zoneId`, `areaId`, 
 
 
 -- sitting / sleeping
-DELETE FROM `creature_addon` WHERE `guid` IN (43762, 43765, 44311, 44312, 44321, 44331, 44333, 44334);
+DELETE FROM `creature_addon` WHERE `guid` IN (43111, 43762, 43765, 44311, 44312, 44321, 44331, 44333, 44334, 45796, 52128, 52131);
 INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `visibilityDistanceType`, `auras`) VALUES 
+(43111, 0, 0, 3, 1, 0, 0, NULL), -- sleeping
 (43762, 0, 0, 1, 1, 0, 0, NULL), -- sitting
 (43765, 0, 0, 3, 1, 0, 0, NULL), -- sleeping
 (44311, 0, 0, 3, 1, 0, 0, NULL), -- sleeping
@@ -340,16 +338,21 @@ INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `bytes1`, `bytes2`, `e
 (44321, 0, 0, 1, 1, 0, 0, NULL), -- sitting
 (44331, 0, 0, 1, 1, 0, 0, NULL), -- sitting
 (44333, 0, 0, 3, 1, 0, 0, NULL), -- sleeping
-(44334, 0, 0, 3, 1, 0, 0, NULL); -- sleeping
+(44334, 0, 0, 3, 1, 0, 0, NULL), -- sleeping
+(45796, 0, 0, 3, 1, 0, 0, NULL), -- sleeping
+(52128, 0, 0, 3, 1, 0, 0, NULL), -- sleeping
+(52131, 0, 0, 3, 1, 0, 0, NULL); -- sleeping
 
-UPDATE `creature_template` SET `flags_extra` = 134217728 WHERE `entry` IN (9259, 9261); -- DONT_OVERRIDE_SAI_ENTRY (134217728) - Firebrand Grunt and Darkweaver
+UPDATE `creature_template` SET `flags_extra` = 134217728 WHERE `entry` IN (9259, 9261, 9583, 9693, 9717); -- DONT_OVERRIDE_SAI_ENTRY (134217728)
 
-DELETE FROM `smart_scripts` WHERE `entryorguid` IN (-43765, -44311, -44312, -44333, -44334);
+DELETE FROM `smart_scripts` WHERE `entryorguid` IN (-43111, -43765, -44311, -44312, -44333, -44334, -45796, -52128, -52131);
 INSERT INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, 
 `event_param1`, `event_param2`, `event_param3`, `event_param4`, `event_param5`, `event_param6`, 
 `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param6`, 
 `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_param4`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES 
 --
+(-43111, 0, 0, 0, 1, 0, 100, 1, 3000, 6000, 0, 0, 0, 0, 11, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Bloodaxe Veteran - Out of Combat - Cast Sleep Aura (No Repeat)'),
+(-43111, 0, 1, 0, 4, 0, 100, 0, 0, 0, 0, 0, 0, 0, 28, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,       'Bloodaxe Veteran - On Aggro - Remove Sleep Aura'),
 (-43765, 0, 0, 0, 1, 0, 100, 1, 3000, 6000, 0, 0, 0, 0, 11, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Firebrand Grunt - Out of Combat - Cast Sleep Aura (No Repeat)'),
 (-43765, 0, 1, 0, 4, 0, 100, 0, 0, 0, 0, 0, 0, 0, 28, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,       'Firebrand Grunt - On Aggro - Remove Sleep Aura'),
 (-44311, 0, 0, 0, 1, 0, 100, 1, 3000, 6000, 0, 0, 0, 0, 11, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Firebrand Grunt - Out of Combat - Cast Sleep Aura (No Repeat)'),
@@ -359,7 +362,13 @@ INSERT INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_
 (-44333, 0, 0, 0, 1, 0, 100, 1, 3000, 6000, 0, 0, 0, 0, 11, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Firebrand Grunt - Out of Combat - Cast Sleep Aura (No Repeat)'),
 (-44333, 0, 1, 0, 4, 0, 100, 0, 0, 0, 0, 0, 0, 0, 28, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,       'Firebrand Grunt - On Aggro - Remove Sleep Aura'),
 (-44334, 0, 0, 0, 1, 0, 100, 1, 3000, 6000, 0, 0, 0, 0, 11, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Firebrand Grunt - Out of Combat - Cast Sleep Aura (No Repeat)'),
-(-44334, 0, 1, 0, 4, 0, 100, 0, 0, 0, 0, 0, 0, 0, 28, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,       'Firebrand Grunt - On Aggro - Remove Sleep Aura');
+(-44334, 0, 1, 0, 4, 0, 100, 0, 0, 0, 0, 0, 0, 0, 28, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,       'Firebrand Grunt - On Aggro - Remove Sleep Aura'),
+(-45796, 0, 0, 0, 1, 0, 100, 1, 3000, 6000, 0, 0, 0, 0, 11, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Bloodaxe Summoner - Out of Combat - Cast Sleep Aura (No Repeat)'),
+(-45796, 0, 1, 0, 4, 0, 100, 0, 0, 0, 0, 0, 0, 0, 28, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,       'Bloodaxe Summoner - On Aggro - Remove Sleep Aura'),
+(-52128, 0, 0, 0, 1, 0, 100, 1, 3000, 6000, 0, 0, 0, 0, 11, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Bloodaxe Evoker - Out of Combat - Cast Sleep Aura (No Repeat)'),
+(-52128, 0, 1, 0, 4, 0, 100, 0, 0, 0, 0, 0, 0, 0, 28, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,       'Bloodaxe Evoker - On Aggro - Remove Sleep Aura'),
+(-52131, 0, 0, 0, 1, 0, 100, 1, 3000, 6000, 0, 0, 0, 0, 11, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Bloodaxe Evoker - Out of Combat - Cast Sleep Aura (No Repeat)'),
+(-52131, 0, 1, 0, 4, 0, 100, 0, 0, 0, 0, 0, 0, 0, 28, 26115, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,       'Bloodaxe Evoker - On Aggro - Remove Sleep Aura');
 
 UPDATE `creature` SET `MovementType` = 1, `wander_distance` = 3 WHERE `guid` IN  (44271, 44315);
 
